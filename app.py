@@ -19,9 +19,9 @@ st.title("📊 Multi-Algorithm Prediction Dashboard")
 # -----------------------------
 BASE_DIR = Path(__file__).resolve().parent
 
-LOGISTIC_MODEL_PATH = BASE_DIR / "models" / "classifier_model.pkl"
-KMEANS_MODEL_PATH   = BASE_DIR / "models" / "reg_model.pkl"
-ARM_MODEL_PATH      = BASE_DIR / "models" / "ARM model.pkl"
+LOGISTIC_MODEL_PATH = BASE_DIR / "reg_model.pkl"
+KMEANS_MODEL_PATH   = BASE_DIR / "classifier_model (2).pkl"
+ARM_MODEL_PATH      = BASE_DIR / "ARM model.pkl"
 
 # -----------------------------
 # SAFE MODEL LOADER
